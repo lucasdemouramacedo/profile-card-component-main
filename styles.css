@@ -1,0 +1,235 @@
+:root {
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #2d3248;
+  background: #19a2ae;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  -webkit-box-shadow: 0px 1px 63px 5px #0000005c;
+          box-shadow: 0px 1px 63px 5px #0000005c;
+  background: #fff;
+  border-radius: 15px;
+  width: 350px;
+  overflow: hidden;
+  text-align: center;
+  -webkit-animation: card 1s ease-in-out forwards;
+          animation: card 1s ease-in-out forwards;
+}
+
+.card-header {
+  background-image: url(images/bg-pattern-card.svg);
+  -webkit-box-shadow: inset -4px -8px 16px -12px rgba(0, 0, 0, 0.2);
+          box-shadow: inset -4px -8px 16px -12px rgba(0, 0, 0, 0.2);
+  height: 140px;
+}
+
+.card-body {
+  margin-top: -50px;
+}
+
+.img-holder {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #fff;
+  border: 6px solid #fff;
+  margin: -50px auto 20px auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.name-age {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.02rem;
+}
+
+.age {
+  font-weight: 400;
+  color: #6a6f81;
+  margin-left: 5px;
+}
+
+.city {
+  font-weight: 400;
+  color: #6a6f81;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card-footer {
+  border-top: 1px solid gainsboro;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 25px;
+  height: 90px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-footer .item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.meta {
+  font-weight: 400;
+  color: #6a6f81;
+  font-size: 0.55rem;
+  letter-spacing: 0.09rem;
+  margin-top: 6px;
+}
+
+.bg-pattern-top {
+  position: fixed;
+  z-index: -1;
+  top: -75%;
+  opacity: 1;
+  -webkit-animation: bg-pattern-top 1.2s ease-out forwards;
+          animation: bg-pattern-top 1.2s ease-out forwards;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.bg-pattern-bottom {
+  z-index: -2;
+  position: fixed;
+  bottom: -90%;
+  opacity: 1;
+  -webkit-animation: bg-pattern-bottom 1.2s ease-out forwards;
+          animation: bg-pattern-bottom 1.2s ease-out forwards;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+@-webkit-keyframes bg-pattern-top {
+  from {
+    opacity: 0;
+    top: -75%;
+    right: 100%;
+  }
+  to {
+    opacity: 1;
+    top: -75%;
+    right: 52%;
+  }
+}
+
+@keyframes bg-pattern-top {
+  from {
+    opacity: 0;
+    top: -75%;
+    right: 100%;
+  }
+  to {
+    opacity: 1;
+    top: -75%;
+    right: 52%;
+  }
+}
+
+@-webkit-keyframes bg-pattern-bottom {
+  from {
+    opacity: 0;
+    bottom: -90%;
+    left: 100%;
+  }
+  to {
+    opacity: 1;
+    bottom: -90%;
+    left: 45%;
+  }
+}
+
+@keyframes bg-pattern-bottom {
+  from {
+    opacity: 0;
+    bottom: -90%;
+    left: 100%;
+  }
+  to {
+    opacity: 1;
+    bottom: -90%;
+    left: 45%;
+  }
+}
+
+@-webkit-keyframes card {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes card {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

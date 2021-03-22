@@ -1,0 +1,157 @@
+$Darkcyan: hsl(185, 75%, 39%);
+$Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+$Darkgrayishblue: hsl(227, 10%, 46%);
+$Darkgray: hsl(0, 0%, 59%);
+
+:root{
+    font-size: 18px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: $Verydarkdesaturatedblue;
+    background: $Darkcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    box-shadow: 0px 1px 63px 5px #0000005c;
+    background: #fff;
+    border-radius: 15px;
+    width: 350px;
+    overflow: hidden;
+    text-align: center;
+    animation: card 1s ease-in-out forwards;
+}
+
+.card-header{
+    background-image: url(images/bg-pattern-card.svg);
+    box-shadow: inset -4px -8px 16px -12px rgba(0,0,0,0.2);
+    height: 140px;
+}
+.card-body{
+    margin-top: -50px;
+}
+
+.img-holder{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: #fff;
+    border: 6px solid #fff;
+    margin: -50px auto 20px auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.name-age{
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.02rem;
+}
+
+.age{
+    font-weight: 400;
+    color: $Darkgrayishblue;
+    margin-left: 5px;
+}
+.city{
+    font-weight: 400;
+    color: $Darkgrayishblue;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card-footer{
+    border-top: 1px solid rgb(220,220,220);
+    display: flex;
+    padding: 0 25px;
+    height: 90px;
+    align-items: center;
+
+}
+
+.card-footer .item{
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meta{
+    font-weight: 400;
+    color: $Darkgrayishblue;
+    font-size: 0.55rem;
+    letter-spacing: 0.09rem;
+    margin-top: 6px;
+}
+
+.bg-pattern-top{
+    position: fixed;
+    z-index: -1;
+    top: -75%;
+    opacity: 1;
+    animation: bg-pattern-top 1.2s ease-out forwards;
+    user-select: none;
+}
+
+.bg-pattern-bottom{
+    z-index: -2;
+    position: fixed;
+    bottom: -90%;
+    opacity: 1;
+    animation: bg-pattern-bottom 1.2s ease-out forwards;
+    user-select: none;
+}
+
+@keyframes bg-pattern-top{
+    from {
+        opacity: 0;
+        top: -75%;
+        right: 100%;
+    }
+    to {
+        opacity: 1;
+        top: -75%;
+        right: 52%;
+    }
+  }
+  
+
+@keyframes bg-pattern-bottom{
+    from {
+        opacity: 0;
+        bottom: -90%;
+        left: 100%;
+    }
+    to {
+        opacity: 1;
+        bottom: -90%;
+        left: 45%;
+    }
+}
+
+@keyframes card{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
