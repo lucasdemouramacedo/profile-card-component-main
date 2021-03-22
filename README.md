@@ -32,7 +32,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Profile card component](https://lucasdemouramacedo.github.io/profile-card-component-main/)
 
 ## My process
 
@@ -62,7 +62,7 @@ In future projects I will continue with a focus on improving performance in inte
 
 ## Author
 
-- Github - [Lucas de Moura Macedo](https://github.com/lucasdemouramacedo)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/lucasdemouramacedo)
-- LinkedIn - [@lucasmouramacedo](https://www.linkedin.com/in/lucasdemouramacedo/)
+- Github - [lucasdemouramacedo](https://github.com/lucasdemouramacedo)
+- Frontend Mentor - [@lucasdemouramacedo](https://www.frontendmentor.io/profile/lucasdemouramacedo)
+- LinkedIn - [@lucasdemouramacedo](https://www.linkedin.com/in/lucasdemouramacedo/)
 - Instagram - [@lucasmouramacedo](https://www.instagram.com/lucasmouramacedo/)

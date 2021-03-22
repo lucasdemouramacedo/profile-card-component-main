@@ -55,7 +55,7 @@ body {
 }
 
 .card-header {
-  background-image: url(images/bg-pattern-card.svg);
+  background-image: url(../images/bg-pattern-card.svg);
   -webkit-box-shadow: inset -4px -8px 16px -12px rgba(0, 0, 0, 0.2);
           box-shadow: inset -4px -8px 16px -12px rgba(0, 0, 0, 0.2);
   height: 140px;
