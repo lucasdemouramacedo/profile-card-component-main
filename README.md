@@ -16,7 +16,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -31,7 +30,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/my-first-solution-AKzSHe3xT)
 - Live Site URL: [Profile card component](https://lucasdemouramacedo.github.io/profile-card-component-main/)
 
 ## My process
@@ -57,8 +56,6 @@ In future projects I will continue with a focus on improving performance in inte
 ### Useful resources
 
 - [dpw channel](https://www.youtube.com/channel/UCdHcHgSrWidiOg-mNFNB1Nw) - This channel helped me with CSS and introduce me to Sass.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
